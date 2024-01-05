@@ -1,0 +1,37 @@
+@import "/node_modules/@toast-ui/editor/dist/toastui-editor.css";
+
+/* Override default styles of toast ui here */
+
+/* Remove border from editor */
+.toastui-editor-defaultUI {
+  border: none;
+}
+
+/* Toolbar styles */
+.toastui-editor-defaultUI-toolbar {
+  border-width: 1px 0px 1px 0px !important;
+  border-style: solid;
+  border-color: #edeff4;
+  background-color: #f7f9fc;
+}
+
+/* Hide the divider line between markdown editor and wyswig editor */
+.toastui-editor-md-splitter {
+  display: none !important;
+}
+
+/* Hide the markdown editor */
+.toastui-editor.md-mode {
+  display: none !important;
+}
+
+/* Make the wyswig editor only visible with auto scroll to bottom */
+.toastui-editor-md-preview {
+  width: 100% !important;
+  display: flex;
+  flex-direction: column-reverse;
+  scroll-behavior: smooth;
+}
+.toastui-editor-md-preview > .toastui-editor-contents {
+  flex: 1;
+}

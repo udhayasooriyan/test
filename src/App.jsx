@@ -1,5 +1,6 @@
 import React from 'react';
 import ContentEditor from './Editor';
+import CustomEditor from './CustomEditor';
 
 let dummyData = `
 # Title: FileStack Picker Tutorial
@@ -59,7 +60,8 @@ const App = () => {
 
   return (
     <div>
-      <ContentEditor dummyData={dummyData} />
+      {/* <ContentEditor dummyData={dummyData} /> */}
+      <CustomEditor />
     </div>
   );
 };
