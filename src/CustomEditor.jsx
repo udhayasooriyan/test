@@ -1,5 +1,6 @@
 import { useLayoutEffect, useRef } from "react";
 import ToastUIEditor from "@toast-ui/editor";
+import '@toast-ui/editor/dist/toastui-editor.css';
 
 
 function CustomEditor() {

@@ -1,5 +1,4 @@
 import React from 'react';
-import ContentEditor from './Editor';
 import CustomEditor from './CustomEditor';
 
 let dummyData = `
